@@ -1,0 +1,20 @@
+.custom-navbar {
+  width: 100vw;
+  background-color: #211449;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+
+.custom-navbar .logo img {
+  height: 55px;
+}
+
+.user-name span {
+  color: #ffffff;
+  margin-right: 21px;
+}

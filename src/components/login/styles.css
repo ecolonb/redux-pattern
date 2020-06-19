@@ -1,0 +1,7 @@
+.login-maincontainer {
+  margin-top: 144px;
+  align-items: center;
+  justify-content: center;
+  height: (100vh - 70px) !important;
+  min-height: (100vh - 70px) !important;
+}

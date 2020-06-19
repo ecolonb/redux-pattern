@@ -1,22 +1,12 @@
-import React, { useContext } from 'react';
-import { Redirect } from 'react-router-dom';
+import React from 'react';
 
-import Context from '../../context/gobalContext';
-
+import './style.css';
 export default () => {
-  const { state, dispatch } = useContext(Context);
-  return state.logged ? (
+  return (
     <div className='home'>
-      <p>{state.user_name} you are logged!</p>
-      <button
-        onClick={() => {
-          dispatch({ type: 'logout' });
-        }}
-      >
-        Salir
-      </button>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
     </div>
-  ) : (
-    <Redirect to='/login' />
   );
 };

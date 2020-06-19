@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Context from '../../context/gobalContext';
-import logo from '../../logo.svg';
+import logo from '../../assets/images/numina.svg';
+import './styles.css';
 
 export default () => {
   const { state, dispatch } = useContext(Context);

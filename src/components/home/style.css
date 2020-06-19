@@ -1,0 +1,25 @@
+.home {
+  min-height: calc(100vh - 70px);
+  width: 100vw;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home div {
+  width: 100%;
+  height: 300px;
+  border: 1px solid peru;
+}
+
+@media screen and (min-width: 668px) {
+  .home {
+    flex-direction: row;
+  }
+  .home div {
+    flex-basis: 33.333%;
+  }
+}
